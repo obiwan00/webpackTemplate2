@@ -1,0 +1,27 @@
+.btn {
+    cursor: pointer;
+    outline: none;
+
+    width: 100%;
+    min-height: 42px;
+    @include adaptiveProperty('padding-right', 30, 15);
+    @include adaptiveProperty('padding-left', 30, 15);
+    font-weight: 700;
+
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    white-space: nowrap;
+    @include adaptiveProperty('font-size', 18, 16);
+    color: $white;
+    //background-color: $primary-color;
+    @media (min-width: $tabletSmallP1) {
+        min-height: 62px;
+    }
+}
