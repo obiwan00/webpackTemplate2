@@ -4,8 +4,7 @@
 
     width: 100%;
     min-height: 42px;
-    @include adaptiveProperty('padding-right', 30, 15);
-    @include adaptiveProperty('padding-left', 30, 15);
+    padding: 8px 16px;
     font-weight: 700;
 
     border: 1px solid transparent;

@@ -1,5 +1,11 @@
+// container
+$containerPaddingS: 1.6rem;
+$containerPaddingM: 2.4rem;
+$containerPadding: 6.4rem;
+
 // Sizing
-$container: 1440; // container width
+$designContainer: 1600; // container width
+$containerMaxWidth: $designContainer + remToNum($containerPadding) * 2;
 $deskLarge: 1599px;
 $deskLargeP1: $deskLarge / 1px + 1px;
 $desktop: 1440px;
@@ -15,10 +21,10 @@ $mobileP1: $mobile / 1px + 1px;
 $mobileSmall: 370px;
 $mobileSmallP1: $mobileSmall / 1px + 1px;
 
-// container
-$containerPaddingS: 1.6rem;
-$containerPaddingM: 2.4rem;
-$containerPadding: 6.4rem;
+// Adaptive Property Sizing
+$adaptivePropertyMaxViewport: $containerMaxWidth;
+$adaptivePropertyMinViewport: 375;
+
 
 // Colors
 
