@@ -3,7 +3,3 @@ html {
   font-family: $primary-font;
   color: $black;
 }
-
-h1 {
-  @include adaptiveProperty('font-size', 50, 20);
-}
